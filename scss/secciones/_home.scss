@@ -1,0 +1,21 @@
+.main {
+    height: 89vh;
+    background-color: rgb(49, 49, 49);
+    background-size: cover;
+    width: 100vw;
+    overflow: auto;
+
+    p {
+        font-size: 2rem;
+        color: white;
+        min-width: 300px;
+    }
+
+    iframe {
+        min-width: 300px;
+    }
+}
+
+.home {
+    padding: 20vh;
+}
