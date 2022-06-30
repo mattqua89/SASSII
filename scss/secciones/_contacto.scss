@@ -1,0 +1,19 @@
+.contacto {
+    @extend %form;
+
+    label {
+        color: white;
+    }
+    button {
+        background-color: #c4302b;
+        border-color: #c4302b;
+        transition: 1s;
+    }
+    input[type="checkbox"]:checked {
+        background-color: #c4302b;
+        border: #c4302b;
+    }
+}
+
+
+@import './variables/extend';

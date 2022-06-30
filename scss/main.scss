@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.main{
+    @extend %formatoMain;
+}
+
 @import './secciones/header';
 @import './secciones/footer';
 @import './secciones/home';
+@import './secciones/contacto';
+@import './secciones/liveSet';
+@import './secciones/releases';
+@import './secciones/media';
+@import './variables/extend';
+@import './variables/mixin';
