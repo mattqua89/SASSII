@@ -1,0 +1,6 @@
+1-Se agregan H1 en el index y contacto.
+2-Se agregan keywords en todas las secciones
+3-Se modifican titulos de las paginas
+4-Se agregan metadescriptions en todas las secciones
+5-Se colocan las secciones en la carpeta pages
+6-Se agrega archivo sitemap
