@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Media</title>
+    <meta name="keywords" content="dj, fjvargas, contacto, bookings, demos, musica, track">
+    <meta name="description" content="contactanos para eventos o envianos tu demo para producirlo con nosotros">
+    <title>DJ FJVargas - Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -29,16 +31,16 @@
                                 <a class="nav-link" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./liveSet.html">Live Sets</a>
+                                <a class="nav-link" href="./pages/liveSet.html">Live Sets</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./releases.html">Releases</a>
+                                <a class="nav-link" href="./pages/releases.html">Releases</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./media.html">Media</a>
+                                <a class="nav-link" href="./pages/media.html">Media</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -47,19 +49,27 @@
         </nav>
     </header>
     <main class="main">
-        <h2 class="titulo">Pictures</h2>
-        <div class="container-fluid media">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://josman7c.files.wordpress.com/2014/05/free-desktop-wallpaper-dj-turntable-1024x768.jpg?w=1024"
-                            class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://pbs.twimg.com/media/EwEAvWHWgA8RUw9.jpg" class="d-block w-100" alt="...">
-                    </div>
+        <h1>Contactame</h1>
+        <div class="container contacto">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="text" placeholder="Nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mail</label>
+                    <input type="email" placeholder="mail@mail.com" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                    <input type="textarea" placeholder="Mensaje" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recibir novedades</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </main>
     <footer class="footer">

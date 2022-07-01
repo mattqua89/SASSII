@@ -5,6 +5,10 @@
 
 .main{
     @extend %formatoMain;
+    h1{
+        font-size: 3rem;
+        color: #c4302b;
+    }
 }
 
 @import './secciones/header';

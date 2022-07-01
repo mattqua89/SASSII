@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+.main h1 {
+  font-size: 3rem;
+  color: #c4302b; }
+
 .header {
   height: 6vh;
   width: 100vw; }
@@ -103,11 +107,12 @@
   border-radius: 15px;
   text-align: left; }
 
-.main h1 {
+.live h2 {
+  margin-top: 30vh;
   font-size: 5rem;
-  color: #c4302b; }
+  color: white; }
 
-.main section {
+.live section {
   margin-top: 30vh;
   text-align: center; }
 
@@ -115,13 +120,7 @@
   padding: 1rem; }
 
 .media {
-  margin-top: 210px; }
-
-.titulo {
-  margin-top: 2rem;
-  font-size: 3rem;
-  color: #c4302b;
-  text-align: center; }
+  margin-top: 230px; }
 
 .main {
   height: 89vh;
