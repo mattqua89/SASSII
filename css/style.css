@@ -16,6 +16,7 @@
     .nav a:focus {
       color: #ff7474; }
   .nav li {
+    background-color: black;
     border-radius: 12px;
     transition: 0.5s; }
     .nav li:hover {
@@ -50,8 +51,13 @@
   justify-content: center;
   align-items: center; }
   .bottonMenu li {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    transition: 0.5s;
     display: inline-block;
     padding: 10px; }
+    .bottonMenu li:hover {
+      background-color: #292929; }
   .bottonMenu a {
     color: white;
     text-decoration: none;

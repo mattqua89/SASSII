@@ -1,0 +1,8 @@
+@mixin btnNav ($colorFondo,$colorHover) {
+    background-color: $colorFondo;
+    border-radius: 12px;
+        transition: 0.5s;
+        &:hover {
+            background-color: $colorHover;
+        };        
+}
