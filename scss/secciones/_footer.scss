@@ -2,9 +2,8 @@
 
 .footer {
     background-color: rgb(26, 26, 26);
-    height: 5vh;
-    width: 100%;
-    min-height: 45px;
+    height: 46px;
+    width: 100%;    
 }
 
 .bottonMenu {
@@ -22,7 +21,7 @@
     a {
         color: white;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 16px;
         &:hover {
             color: #c4302b;
         };

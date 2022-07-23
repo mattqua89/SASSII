@@ -48,9 +48,8 @@
 
 .footer {
   background-color: #1a1a1a;
-  height: 5vh;
-  width: 100%;
-  min-height: 45px; }
+  height: 46px;
+  width: 100%; }
 
 .bottonMenu {
   display: flex;
@@ -68,7 +67,7 @@
   .bottonMenu a {
     color: white;
     text-decoration: none;
-    font-size: 1rem; }
+    font-size: 16px; }
     .bottonMenu a:hover {
       color: #c4302b; }
 
