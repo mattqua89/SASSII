@@ -1,6 +1,15 @@
 .media {
+    padding: 1rem;
     
-    margin-top: 230px;    
+    img {
+        margin: 2.5rem;
+        width: 70%;
+        transition: 0.5s;
+    &:hover{
+       width: 82%;      
+       margin: 0; 
+    }
+    }  
 }
 
 

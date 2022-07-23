@@ -4,3 +4,20 @@
     }
 }
 
+@media (max-width:425px) {
+    .release{
+        iframe{
+            width: 250px;
+            height: 140px;
+        }
+    }
+}
+
+@media (max-width:375px) {
+    .release {        
+        div {
+        padding: 0rem;
+        padding-bottom: 1rem;
+    }
+}
+}

@@ -1,4 +1,6 @@
-.main {
+.home {
+    padding: 20vh;
+
     p {
         font-size: 2rem;
         color: white;
@@ -10,7 +12,48 @@
     }
 }
 
-.home {
-    padding: 20vh;
+@media (max-width:768px) {
+    .home {
+
+        padding: 10vh;
+
+        p {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+
+    }
 }
 
+@media (max-width:425px) {
+      .home {
+
+        padding: 2vh;
+
+        p {
+            font-size: 1rem;
+            color: white;
+        }
+
+        iframe {
+            visibility: hidden;
+        }
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media (max-width:375px) {
+    .home {
+        padding: 0;
+        p {
+            font-size: 1rem;
+            min-width: 200px;
+            color: white;
+        }
+        iframe {
+            visibility: hidden;
+        }
+    }
+}
