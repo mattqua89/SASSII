@@ -54,7 +54,8 @@
 .bottonMenu {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-left: 0; }
   .bottonMenu li {
     background-color: #1a1a1a;
     border-radius: 12px;
@@ -69,6 +70,10 @@
     font-size: 1rem; }
     .bottonMenu a:hover {
       color: #c4302b; }
+
+@media (max-width: 425px) {
+  .bottonMenu a {
+    font-size: 0; } }
 
 .home {
   padding: 20vh; }

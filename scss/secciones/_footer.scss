@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
 
     li {
         @include btnNav(rgb(26, 26, 26), rgb(41, 41, 41));
@@ -25,4 +26,12 @@
             color: #c4302b;
         };
     }    
+}
+
+@media (max-width:425px){
+    .bottonMenu{
+       a{
+            font-size:0;
+        }
+    }
 }
