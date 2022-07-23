@@ -2,16 +2,17 @@
 
 .footer {
     background-color: rgb(26, 26, 26);
-    height: 46px;
+    height: 6vh;
     width: 100%;    
 }
 
 .bottonMenu {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 0;
-
+    
     li {
         @include btnNav(rgb(26, 26, 26), rgb(41, 41, 41));
         display: inline-block;

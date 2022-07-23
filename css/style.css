@@ -48,10 +48,11 @@
 
 .footer {
   background-color: #1a1a1a;
-  height: 46px;
+  height: 6vh;
   width: 100%; }
 
 .bottonMenu {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +131,7 @@
   border: #c4302b; }
 
 .main {
-  height: 89vh;
+  height: 88vh;
   background-color: #313131;
   width: 100vw;
   overflow: auto;
@@ -186,7 +187,7 @@
       margin: 0; }
 
 .main {
-  height: 89vh;
+  height: 88vh;
   background-color: #313131;
   width: 100vw;
   overflow: auto;
