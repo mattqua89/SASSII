@@ -1,12 +1,42 @@
+/*estilos de seccion dates*/
 .dates {
-    h2 {
-       margin-top: 30vh;
-        font-size: 5rem;    
-        color: white;    
-    }
-    section {
-        margin-top: 30vh;
+    ul{
+        background-color: rgba(122, 122, 122, 0.623);
+        display: inline-block;
+        border-radius: 12px;
+        padding: 2rem;
+        margin-top: 2rem;
         text-align: center;
+    }
+    li{
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        list-style: none;
+        text-align: left;
+        transition: 0.5s;
+        &:hover{
+            color: #c4302b;
+            background-color: rgba(255, 255, 255, 0.164);
+        }
     }
 }
 
+
+@media (max-width:425px){
+   .dates{   
+    li{
+        font-size: 1rem;
+    }
+   }
+}
+
+@media (max-width:320px){
+    .dates{   
+     li{
+         font-size: 0.75rem;
+     }
+    }
+ }

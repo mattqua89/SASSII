@@ -1,3 +1,5 @@
+/*mixin para botones*/
+
 @mixin btnNav ($colorFondo,$colorHover) {
     background-color: $colorFondo;
     border-radius: 12px;

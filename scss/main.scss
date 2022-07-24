@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*estilo general que se repite en toda la pagina*/
 .main{
     @extend %formatoMain;
     h1{
