@@ -1,9 +1,6 @@
 /*estilos de seccion home*/
 .home {
     padding: 20vh;
-    margin: auto;
-    text-align: center;
-
     p {
         font-size: 2rem;
         color: white;
@@ -31,9 +28,8 @@
 
 @media (max-width:425px) {
       .home {
-
         padding: 2vh;
-
+        margin:auto;
         p {
             font-size: 1rem;
             color: white;
@@ -51,7 +47,6 @@
     .home {
         padding: 0;
         padding-top: 2vh;
-        margin:auto;
         p {
             font-size: 1rem;
             min-width: 200px;
